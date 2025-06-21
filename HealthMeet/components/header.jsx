@@ -13,6 +13,7 @@ import { checkUser } from "@/lib/checkUser";
 import { Badge } from "./ui/badge";
 import { checkAndAllocateCredits } from "@/actions/credits";
 import Image from "next/image";
+import HealthMeetLogo from "../public/HealthMeetLogo.png"
 
 export default async function Header() {
   const user = await checkUser();
@@ -25,11 +26,11 @@ export default async function Header() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 cursor-pointer">
           <Image
-            src="/logo-single.png"
+            src={HealthMeetLogo}
             alt="Medimeet Logo"
-            width={200}
-            height={60}
-            className="h-10 w-auto object-contain"
+            width={150}
+            height={25}
+            className="object-contain"
           />
         </Link>
 

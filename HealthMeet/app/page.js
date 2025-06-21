@@ -14,8 +14,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden py-32">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center  order-1 md:order-2">
-            <div className="space-y-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8 order-1 md:order-2">
               <Badge
                 variant="outline"
                 className="bg-emerald-900/30 border-emerald-700/30 px-4 py-2 text-emerald-400 text-sm font-medium"
@@ -51,13 +51,13 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden order-2 md:order-1">
+            <div className="relative h-[400px] lg:h-[600px] rounded-xl overflow-hidden order-2 md:order-1">
               <Image
                 src={doctors}
                 alt="Doctor consultation"
                 fill
                 priority
-                className="object-cover md:pt-14 rounded-xl"
+                className="object-contain md:pt-14 rounded-xl"
               />
             </div>
           </div>
