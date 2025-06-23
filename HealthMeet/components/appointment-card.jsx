@@ -323,7 +323,7 @@ export function AppointmentCard({
             </DialogDescription>
           </DialogHeader>
 
-          <div className="space-y-4 py-4">
+          <div className="space-y-4 py-4 max-w-9/12">
             {/* Other Party Information */}
             <div className="space-y-2">
               <h4 className="text-sm font-medium text-muted-foreground">
@@ -403,7 +403,7 @@ export function AppointmentCard({
                     : "Your Description"}
                 </h4>
                 <div className="p-3 rounded-md bg-muted/20 border border-emerald-900/20">
-                  <p className="text-white whitespace-pre-line">
+                  <p className="text-white whitespace-pre-line truncate">
                     {appointment.patientDescription}
                   </p>
                 </div>
