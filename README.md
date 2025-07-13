@@ -57,5 +57,5 @@ This is a complete full-stack healthcare web application that enables patients t
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/prrajput1199/healthcare-platform.git
-cd healthcare-platform
+git clone https://github.com/prrajput1199/HealthMeet
+cd HealthMeet
