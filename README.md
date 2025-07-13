@@ -4,7 +4,7 @@ This is a complete full-stack healthcare web application that enables patients t
 
 ## 🚀 Demo
 
-🎥 Watch the demo video here: [Click to Watch](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)
+🎥 Watch the demo video here: [Click to Watch](https://www.loom.com/share/1c31ba9c665b40db828d34f0e014343f)
 
 ## 🌟 Features
 
@@ -52,10 +52,3 @@ This is a complete full-stack healthcare web application that enables patients t
 | Next.js       | Next.js      |  PostgreSQL |
 | Tailwind CSS  | Vonage API (Video)     | Prisma client   |
 | Axios         | Prisma        | Nodemailer (optional) |
-
-## 🧪 How to Run Locally
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/prrajput1199/HealthMeet
-cd HealthMeet
